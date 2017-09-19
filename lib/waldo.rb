@@ -1,5 +1,7 @@
 require "waldo/version"
 
 module Waldo
-  # Your code goes here...
+  def self.hi
+    puts "Hello world!"
+  end
 end
