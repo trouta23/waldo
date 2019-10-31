@@ -65,7 +65,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.12"
+  spec.add_development_dependency "bundler", "~> 2.0.2"
   spec.add_development_dependency "rake", "~> 10.0"
 end
 ```
@@ -131,7 +131,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+- Open up a console: `bin/console`
+- Call `Waldo.where_are_you`
+- You should expect to see: `It's a secret!` returned
 
 ## Development
 
@@ -211,7 +213,7 @@ Fetching gem metadata from https://rubygems.org/
 Fetching version metadata from https://rubygems.org/
 Resolving dependencies...
 Installing rake 10.5.0
-Using bundler 1.12.5
+Using bundler 2.0.2
 Using waldo 0.1.0 from source at `.`
 Bundle complete! 3 Gemfile dependencies, 3 gems now installed.
 Use `bundle show [gemname]` to see where a bundled gem is installed.
